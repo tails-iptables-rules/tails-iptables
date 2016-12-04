@@ -1,0 +1,15 @@
+# OVERVIEW
+
+Iptables rules obtained with 
+
+    iptables-save > tails-iptables
+
+on Tails-OS. Run 
+
+    iptables-restore < tails-iptables
+
+to import on your system.
+
+Tails netfilter is actually based on stem. See doc at
+
+[https://tails.boum.org/contribute/design/Tor_enforcement/Network_filter/]
